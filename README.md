@@ -18,25 +18,25 @@ Fill this out **before** the class begins.
 
 ## Day 1
 
-### 1 · What is RL?
-
-▶ [What is RL — SAR Loop & Episode](#) *(link pending)*
+### 1 · What is RL — SAR Loop & Episode
+▶ [Watch Video](#) *(link pending)*
 
 ---
 
-### 2 · Platform Introduction
-
-▶ [Rein Room Platform Guide](#) *(link pending)*
+### 2 · Rein Room Platform Guide
+▶ [Watch Video](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
 ---
 
-### 3 · MAB — Multi-Armed Bandit
+### 3 · How Agents Decide — ε-greedy & Hyperparameters (α, γ, ε)
+▶ [Watch Video](#) *(link pending)*
 
-▶ [How Agents Decide — ε-greedy & Hyperparameters (α, γ, ε)](#) *(link pending)*
+---
 
-▶ [MAB Demo — Rein Room](#) *(link pending)*
+### 4 · MAB — Multi-Armed Bandit
+▶ [Watch Demo](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -46,9 +46,8 @@ Fill this out **before** the class begins.
 
 ---
 
-### 4 · Maze 1D
-
-▶ [Maze1D Demo — Rein Room](#) *(link pending)*
+### 5 · Maze 1D
+▶ [Watch Demo](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -58,11 +57,13 @@ Fill this out **before** the class begins.
 
 ---
 
-### 5 · Maze 2D — First Look
+### 6 · How Agents Learn — Q-table & Update Rule
+▶ [Watch Video](#) *(link pending)*
 
-▶ [How Agents Learn — Q-table & Update Rule](#) *(link pending)*
+---
 
-▶ [Maze2D Intro Demo — Rein Room](#) *(link pending)*
+### 7 · Maze 2D — First Look
+▶ [Watch Demo](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -72,10 +73,12 @@ Fill this out **before** the class begins.
 
 ## Day 2
 
-### 6 · Maze 2D — Deep Dive
+### 8 · Reading the Q-table Heatmap
+▶ [Watch Video](#) *(link pending)*
 
-▶ [Reading the Q-table Heatmap](#) *(link pending)*
+---
 
+### 9 · Maze 2D — Deep Dive
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
 | Task | |
@@ -84,11 +87,13 @@ Fill this out **before** the class begins.
 
 ---
 
-### 7 · Heli — Helicopter
+### 10 · Reading Training Curves
+▶ [Watch Video](#) *(link pending)*
 
-▶ [Reading Training Curves](#) *(link pending)*
+---
 
-▶ [Heli Demo — Rein Room](#) *(link pending)*
+### 11 · Heli — Helicopter
+▶ [Watch Demo](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -98,11 +103,13 @@ Fill this out **before** the class begins.
 
 ---
 
-### 8 · Fighter *(optional challenge)*
+### 12 · Continuous State & Discretization
+▶ [Watch Video](#) *(link pending)*
 
-▶ [Continuous State & Discretization](#) *(link pending)*
+---
 
-▶ [Fighter Demo — Rein Room](#) *(link pending)*
+### 13 · Fighter *(optional challenge)*
+▶ [Watch Demo](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
