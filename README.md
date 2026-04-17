@@ -18,44 +18,93 @@ Fill this out **before** the class begins.
 
 ## Day 1
 
-### 1 · Watch the RL Intro Video
+### 1 · What is RL?
 
-▶ [RL Basics Video](#) *(link pending)*
-
----
-
-### 2 · Open the Platform & Watch the Guide Video
-
-Watch the guide video first to see how the platform works, then try it yourself.
-
-▶ [Day 1 Guide Video](#) *(link pending)*
-
-🌐 [Open Rein Room Platform](https://reinroom.leaflune.org)
+▶ [What is RL — SAR, Episode & Hyperparameters](#) *(link pending)*
 
 ---
 
-### Day 1 Tasks
+### 2 · Platform Introduction
 
-| Task | Status |
-|------|--------|
-| MAB — Multi-Armed Bandit | |
-| Maze 1D | |
-| Maze 2D | |
+▶ [Rein Room Platform Guide](#) *(link pending)*
+
+🌐 [Open Rein Room](https://reinroom.leaflune.org)
+
+---
+
+### 3 · MAB — Multi-Armed Bandit
+
+▶ [ε-greedy: Exploration vs Exploitation](#) *(link pending)*
+
+▶ [MAB Demo — Rein Room](#) *(link pending)*
+
+🌐 [Open Rein Room](https://reinroom.leaflune.org)
+
+| Task | |
+|------|---|
+| T1 · Try ε = 0.9 and ε = 0.1. Describe the difference in the reward curve. | |
+
+---
+
+### 4 · Maze 1D
+
+▶ [Maze1D Demo — Rein Room](#) *(link pending)*
+
+🌐 [Open Rein Room](https://reinroom.leaflune.org)
+
+| Task | |
+|------|---|
+| T2 · Point out the **state / action / reward / episode** in this game. | |
+
+---
+
+### 5 · Maze 2D — First Look
+
+▶ [Q-learning: How the Agent Learns](#) *(link pending)*
+
+▶ [Maze2D Intro Demo — Rein Room](#) *(link pending)*
+
+🌐 [Open Rein Room](https://reinroom.leaflune.org)
+
+> Start the agent and observe. We'll go deeper next class.
 
 ---
 
 ## Day 2
 
-▶ [Day 2 Guide Video](#) *(link pending)*
+### 6 · Maze 2D — Deep Dive
 
-🌐 [Open Rein Room Platform](https://reinroom.leaflune.org)
+▶ [Reading the Q-table Heatmap](#) *(link pending)*
 
-### Day 2 Tasks
+🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
-| Task | Status |
-|------|--------|
-| Heli — Helicopter | |
-| Fighter *(optional challenge)* | |
+| Task | |
+|------|---|
+| T3 · Trace the Start → Goal path on the Q-table heatmap. | |
+
+---
+
+### 7 · Heli — Helicopter
+
+▶ [Reading Training Curves](#) *(link pending)*
+
+▶ [Heli Demo — Rein Room](#) *(link pending)*
+
+🌐 [Open Rein Room](https://reinroom.leaflune.org)
+
+| Task | |
+|------|---|
+| T4 · Run at least 50 episodes. Describe the reward curve trend. | |
+
+---
+
+### 8 · Fighter *(optional challenge)*
+
+▶ [Continuous State & Discretization](#) *(link pending)*
+
+▶ [Fighter Demo — Rein Room](#) *(link pending)*
+
+🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
 ---
 
