@@ -10,7 +10,7 @@ Follow the steps **in order** during each class session.
 
 | | |
 |---|---|
-| 📝 Pre-test | [Open Form](#) *(link pending)* |
+| 📝 Pre-test | [Open Form](https://docs.google.com/forms/d/e/1FAIpQLScjLbUs1fXY4Kx0c57aOteXY01cc8sl--zFGeqZUnw8WLzjuQ/viewform) |
 
 Fill this out **before** the class begins.
 
@@ -19,8 +19,6 @@ Fill this out **before** the class begins.
 ## Day 1
 
 ### 1 · Watch the RL Intro Video
-
-> Both groups watch the same video. (~5 min)
 
 ▶ [RL Basics Video](#) *(link pending)*
 
@@ -65,7 +63,7 @@ Watch the guide video first to see how the platform works, then try it yourself.
 
 | | |
 |---|---|
-| 📝 Post-test | [Open Form](#) *(link pending)* |
+| 📝 Post-test | [Open Form](https://docs.google.com/forms/d/e/1FAIpQLScWZFl7lRsX7ziUp4FmG2RETKUtCtCQN14zgGXUfOMWg3VC9w/viewform) |
 
 Fill this out **before leaving** the classroom.
 
