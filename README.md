@@ -20,7 +20,7 @@ Fill this out **before** the class begins.
 
 ### 1 · What is RL?
 
-▶ [What is RL — SAR, Episode & Hyperparameters](#) *(link pending)*
+▶ [What is RL — SAR Loop & Episode](#) *(link pending)*
 
 ---
 
@@ -34,7 +34,7 @@ Fill this out **before** the class begins.
 
 ### 3 · MAB — Multi-Armed Bandit
 
-▶ [ε-greedy: Exploration vs Exploitation](#) *(link pending)*
+▶ [How Agents Decide — ε-greedy & Hyperparameters (α, γ, ε)](#) *(link pending)*
 
 ▶ [MAB Demo — Rein Room](#) *(link pending)*
 
@@ -60,7 +60,7 @@ Fill this out **before** the class begins.
 
 ### 5 · Maze 2D — First Look
 
-▶ [Q-learning: How the Agent Learns](#) *(link pending)*
+▶ [How Agents Learn — Q-table & Update Rule](#) *(link pending)*
 
 ▶ [Maze2D Intro Demo — Rein Room](#) *(link pending)*
 
