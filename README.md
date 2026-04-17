@@ -46,7 +46,12 @@ Fill this out **before** the class begins.
 
 ---
 
-### 5 · Maze 1D
+### 5 · How Agents Learn — Q-table & Update Rule
+▶ [Watch Video](https://www.youtube.com/watch?v=lwEo9spItjs)
+
+---
+
+### 6 · Maze 1D
 ▶ [Watch Demo](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
@@ -54,11 +59,6 @@ Fill this out **before** the class begins.
 | Task | |
 |------|---|
 | T2 · Point out the **state / action / reward / episode** in this game. | |
-
----
-
-### 6 · How Agents Learn — Q-table & Update Rule
-▶ [Watch Video](https://www.youtube.com/watch?v=lwEo9spItjs)
 
 ---
 
