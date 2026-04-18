@@ -63,7 +63,6 @@ Fill this out **before** the class begins.
 ---
 
 ### 7 · Maze 2D — First Look
-▶ [Watch Demo A3](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -71,14 +70,16 @@ Fill this out **before** the class begins.
 
 ---
 
-## Day 2
-
 ### 8 · Reading the Q-table Heatmap
 ▶ [Watch Video V3](https://www.youtube.com/watch?v=Sesod0K4wjc)
 
 ---
 
+## Day 2
+
 ### 9 · Maze 2D — Deep Dive
+▶ [Watch Demo A3](#) *(link pending)*
+
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
 | Task | |
