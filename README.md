@@ -24,7 +24,7 @@ Fill this out **before** the class begins.
 ---
 
 ### 2 · Rein Room Platform Guide
-▶ [Watch Video](#) *(link pending)*
+▶ [Watch Video](https://www.youtube.com/watch?v=oMO8wwP2a6s)
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
