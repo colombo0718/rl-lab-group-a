@@ -19,24 +19,24 @@ Fill this out **before** the class begins.
 ## Day 1
 
 ### 1 · What is RL — SAR Loop & Episode
-▶ [Watch Video](https://www.youtube.com/watch?v=g5SFtsTAv4I)
+▶ [Watch Video V0](https://www.youtube.com/watch?v=g5SFtsTAv4I)
 
 ---
 
 ### 2 · Rein Room Platform Guide
-▶ [Watch Video](https://www.youtube.com/watch?v=oMO8wwP2a6s)
+▶ [Watch Video A0](https://www.youtube.com/watch?v=oMO8wwP2a6s)
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
 ---
 
 ### 3 · How Agents Decide — ε-greedy & Hyperparameters (α, γ, ε)
-▶ [Watch Video](https://www.youtube.com/watch?v=GrPdk2d9KVA)
+▶ [Watch Video V1](https://www.youtube.com/watch?v=GrPdk2d9KVA)
 
 ---
 
 ### 4 · MAB — Multi-Armed Bandit
-▶ [Watch Demo](#) *(link pending)*
+▶ [Watch Demo A1](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -47,12 +47,12 @@ Fill this out **before** the class begins.
 ---
 
 ### 5 · How Agents Learn — Q-table & Update Rule
-▶ [Watch Video](https://www.youtube.com/watch?v=lwEo9spItjs)
+▶ [Watch Video V2](https://www.youtube.com/watch?v=lwEo9spItjs)
 
 ---
 
 ### 6 · Maze 1D
-▶ [Watch Demo](#) *(link pending)*
+▶ [Watch Demo A2](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -63,7 +63,7 @@ Fill this out **before** the class begins.
 ---
 
 ### 7 · Maze 2D — First Look
-▶ [Watch Demo](#) *(link pending)*
+▶ [Watch Demo A3](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -74,7 +74,7 @@ Fill this out **before** the class begins.
 ## Day 2
 
 ### 8 · Reading the Q-table Heatmap
-▶ [Watch Video](https://www.youtube.com/watch?v=Sesod0K4wjc)
+▶ [Watch Video V3](https://www.youtube.com/watch?v=Sesod0K4wjc)
 
 ---
 
@@ -88,12 +88,12 @@ Fill this out **before** the class begins.
 ---
 
 ### 10 · Reading Training Curves
-▶ [Watch Video](https://www.youtube.com/watch?v=6crIH-kT-bA)
+▶ [Watch Video V4](https://www.youtube.com/watch?v=6crIH-kT-bA)
 
 ---
 
 ### 11 · Heli — Helicopter
-▶ [Watch Demo](#) *(link pending)*
+▶ [Watch Demo A4](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -104,12 +104,12 @@ Fill this out **before** the class begins.
 ---
 
 ### 12 · Continuous State & Discretization
-▶ [Watch Video](https://www.youtube.com/watch?v=Z67UnKtgBH4)
+▶ [Watch Video V5](https://www.youtube.com/watch?v=Z67UnKtgBH4)
 
 ---
 
 ### 13 · Fighter *(optional challenge)*
-▶ [Watch Demo](#) *(link pending)*
+▶ [Watch Demo A5](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
