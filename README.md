@@ -62,22 +62,14 @@ Fill this out **before** the class begins.
 
 ---
 
-### 7 · Maze 2D — First Look
-
-🌐 [Open Rein Room](https://reinroom.leaflune.org)
-
-> Start the agent and observe. We'll go deeper next class.
-
----
-
-### 8 · Reading the Q-table Heatmap
+### 7 · Reading the Q-table Heatmap
 ▶ [Watch Video V3](https://www.youtube.com/watch?v=Sesod0K4wjc)
 
 ---
 
 ## Day 2
 
-### 9 · Maze 2D — Deep Dive
+### 8 · Maze 2D — Deep Dive
 ▶ [Watch Demo A3](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
@@ -88,12 +80,12 @@ Fill this out **before** the class begins.
 
 ---
 
-### 10 · Reading Training Curves
+### 9 · Reading Training Curves
 ▶ [Watch Video V4](https://www.youtube.com/watch?v=6crIH-kT-bA)
 
 ---
 
-### 11 · Heli — Helicopter
+### 10 · Heli — Helicopter
 ▶ [Watch Demo A4](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
@@ -104,12 +96,12 @@ Fill this out **before** the class begins.
 
 ---
 
-### 12 · Continuous State & Discretization
+### 11 · Continuous State & Discretization
 ▶ [Watch Video V5](https://www.youtube.com/watch?v=Z67UnKtgBH4)
 
 ---
 
-### 13 · Fighter *(optional challenge)*
+### 12 · Fighter *(optional challenge)*
 ▶ [Watch Demo A5](#) *(link pending)*
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
