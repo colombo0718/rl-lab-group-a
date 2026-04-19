@@ -36,7 +36,7 @@ Fill this out **before** the class begins.
 ---
 
 ### 4 · MAB — Multi-Armed Bandit
-▶ [Watch Demo A1](#) *(link pending)*
+▶ [Watch Demo A1](https://youtu.be/79jcXDG1HRM)
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -52,7 +52,7 @@ Fill this out **before** the class begins.
 ---
 
 ### 6 · Maze 1D
-▶ [Watch Demo A2](#) *(link pending)*
+▶ [Watch Demo A2](https://youtu.be/gx-g62fmbmM)
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -71,7 +71,7 @@ Fill this out **before** the class begins.
 ## Day 2
 
 ### 8 · Maze 2D — Deep Dive
-▶ [Watch Demo A3](#) *(link pending)*
+▶ [Watch Demo A3](https://youtu.be/fJTmZWcn0Uc)
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -87,7 +87,7 @@ Fill this out **before** the class begins.
 ---
 
 ### 10 · Heli — Helicopter
-▶ [Watch Demo A4](#) *(link pending)*
+▶ [Watch Demo A4](https://youtu.be/T6N16yvSStc)
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
@@ -103,7 +103,7 @@ Fill this out **before** the class begins.
 ---
 
 ### 12 · Fighter *(optional challenge)*
-▶ [Watch Demo A5](#) *(link pending)*
+▶ [Watch Demo A5](https://youtu.be/vbDA6LBa-Bo)
 
 🌐 [Open Rein Room](https://reinroom.leaflune.org)
 
