@@ -26,7 +26,7 @@ Fill this out **before** the class begins.
 ### 2 · Rein Room Platform Guide
 ▶ [Watch Video A0](https://www.youtube.com/watch?v=oMO8wwP2a6s)
 
-🌐 [Open Rein Room](https://reinroom.leaflune.org)
+🌐 [Open Rein Room](https://reinroom.leaflune.org/en/)
 
 ---
 
@@ -38,7 +38,7 @@ Fill this out **before** the class begins.
 ### 4 · MAB — Multi-Armed Bandit
 ▶ [Watch Demo A1](https://youtu.be/YClKpairwDo)
 
-🌐 [Open Rein Room](https://reinroom.leaflune.org)
+🌐 [Open MAB in Rein Room](https://reinroom.leaflune.org/en/?game=/games/MAB_en.html)
 
 | Task | |
 |------|---|
@@ -54,7 +54,7 @@ Fill this out **before** the class begins.
 ### 6 · Maze 1D
 ▶ [Watch Demo A2](https://youtu.be/0t8htN7eXIo)
 
-🌐 [Open Rein Room](https://reinroom.leaflune.org)
+🌐 [Open Maze 1D in Rein Room](https://reinroom.leaflune.org/en/?game=/games/Maze1D_en.html)
 
 | Task | |
 |------|---|
@@ -73,7 +73,7 @@ Fill this out **before** the class begins.
 ### 8 · Maze 2D — Deep Dive
 ▶ [Watch Demo A3](https://youtu.be/6TSTonFAClA)
 
-🌐 [Open Rein Room](https://reinroom.leaflune.org)
+🌐 [Open Maze 2D in Rein Room](https://reinroom.leaflune.org/en/?game=/games/Maze2D_emoji_en.html)
 
 | Task | |
 |------|---|
@@ -89,7 +89,7 @@ Fill this out **before** the class begins.
 ### 10 · Heli — Helicopter
 ▶ [Watch Demo A4](https://youtu.be/BWvJVxiQ-hg)
 
-🌐 [Open Rein Room](https://reinroom.leaflune.org)
+🌐 [Open Heli in Rein Room](https://reinroom.leaflune.org/en/?game=/games/heli_en.html)
 
 | Task | |
 |------|---|
@@ -105,7 +105,7 @@ Fill this out **before** the class begins.
 ### 12 · Fighter *(optional challenge)*
 ▶ [Watch Demo A5](https://youtu.be/rhmJb94PZVU)
 
-🌐 [Open Rein Room](https://reinroom.leaflune.org)
+🌐 [Open Fighter in Rein Room](https://reinroom.leaflune.org/en/?game=/games/fighter_en.html)
 
 ---
 
