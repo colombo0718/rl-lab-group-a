@@ -1,297 +1,271 @@
-# 講師講稿 — RL 實驗課 A 組（Rein Room 平台版）
+# Instructor Script — RL Lab, Group A (Rein Room Platform)
 
 > **使用說明**
-> 方括號 `【】` 是你的**動作提示**，不念出來。
-> 引號內文字是**建議講詞**，可照念或自由發揮。
-> 粗體是**關鍵詞**，念慢一點讓學生記住。
+> `【動作】` = 你的行為提示，**不念出來**。
+> 引號內是**口說英文講詞**，可照念或自由調整語氣。
+> **粗體**是需要念慢、讓學生記住的關鍵詞。
 
 ---
 
-## ＝＝ 第一天 ＝＝
+## ══ Day 1 ══
 
 ---
 
-### 🟢 開場（3 分鐘）
+### 🟢 Opening (3 min)
 
-【等學生安靜，站到講台正中，不要急著開口。環視一圈再開始。】
+【站到講台正中，等學生安靜，環視一圈再開口】
 
-「好，我們開始。」
+"Alright, let's get started."
 
-「我知道你們大部分人從來沒學過強化學習，甚至可能不確定今天來這裡要做什麼。沒關係——兩天結束，你會真的**跑過**一個 AI 學習的完整過程，不是看影片，是你自己動手讓它學。」
+"I know most of you have never studied reinforcement learning before — you might not even be sure what today is about. That's completely fine. By the end of these two days, you'll have actually *run* an AI learning process from scratch. Not watching someone else do it — you'll do it yourself."
 
-「這個課程同時是我在做的研究。你們的操作資料、完成狀況，都是我論文的一部分。所以請認真對待每一個任務——你們的表現，真的有意義。」
+"This course is also part of my research. Your work, your completion times, your observations — they're all data for my thesis. So please take each task seriously. What you do here genuinely matters."
 
 【停頓兩秒】
 
-「我們開始。」
+"Okay. Let's go."
 
 ---
 
-### 📋 課程總覽（2 分鐘）
+### 📋 Course Overview (2 min)
 
-【打開白板或簡報，簡單寫出：Day 1 → T1 / T2 / T3 ｜ Day 2 → T4 / T5】
+【白板寫：Day 1 → T1 / T2 / T3 ｜ Day 2 → T4 / T5】
 
-「兩天，五個任務。每個任務都有一段示範影片，我播完你們就去做，做完舉手讓助教確認。」
+"Two days, five tasks. For each one, I'll play a short demo video, then you do the task yourself on the platform. When you're done, raise your hand — the TA will come check your work."
 
-「今天你們用的是一個**遊戲化平台**，叫做 Rein Room。你不需要寫程式——你在平台上調整參數、觀察 AI 的行為，然後回答問題。」
+"Today you're using an interactive platform called **Rein Room**. No coding required. You'll adjust parameters, watch the agent learn in real time, and answer questions about what you observe."
 
-「問題可以直接問助教，或者舉手問我。沒有蠢問題。」
-
----
-
-### 📌 環境確認（3 分鐘）
-
-【請助教協助確認每人電腦都能開啟 Rein Room 平台】
-
-「請打開瀏覽器，進入 Rein Room 平台頁面。連結在 GitHub README 上，助教已經把網址貼在黑板上。」
-
-「首頁看到幾個遊戲圖示就代表好了。有載入問題的現在舉手。」
-
-【等 2 分鐘，確認全員 OK】
+"Questions go to the TA, or raise your hand for me. No question is a stupid one."
 
 ---
 
-### 🎯 T1：Multi-Armed Bandit — 探索 vs 利用（25 分鐘）
+### 📌 Environment Check (3 min)
 
-#### 引入（2 分鐘）
+【請助教確認每人可以開啟 Rein Room 平台】
 
-「第一個任務，叫做 **Multi-Armed Bandit**，簡稱 MAB。」
+"Please open your browser and go to the Rein Room platform. The link is in the README — the TA has it on the board as well. You should see a homepage with several game icons. If anything isn't loading, raise your hand now."
 
-「想像你走進一間賭場，有很多台吃角子老虎機，但你不知道哪台獎金比較高。你要怎麼決定要一直玩同一台，還是去嘗試別的？這就是**探索 vs 利用**的問題。」
+【等 2 分鐘確認全員就緒】
 
-「強化學習裡最基本的問題之一，就是這個。」
+---
 
-#### 播放示範影片（約 2 分鐘）
+### 🎯 T1 · MAB — Multi-Armed Bandit (25 min)
 
-【打開瀏覽器，全螢幕播放 A1 影片】
-【連結：https://youtu.be/YClKpairwDo】
+#### Intro (2 min)
 
-「我先播一段示範，看我怎麼操作，然後你們照著做。」
+"The first task is called **Multi-Armed Bandit** — MAB for short."
 
-【播放影片，不需要額外解說，影片有字幕】
+"Imagine you walk into a casino. There are many slot machines, but you don't know which one pays out the most. How do you decide whether to keep playing the same machine, or try a different one? That tension — between **exploiting** what you already know and **exploring** what you don't — is one of the most fundamental problems in reinforcement learning."
+
+#### 【播放影片】
+
+【全螢幕播放 A1 影片：https://youtu.be/YClKpairwDo】
+
+【影片結束後繼續說】
+
+"The key parameter is **ε — epsilon**. On the platform you'll see a slider for it. ε = 0.9 means the agent explores 90% of the time. ε = 0.1 means it mostly sticks with what it thinks is best."
+
+"**Task T1**: Run ε = 0.9 and ε = 0.1. Describe the difference in the reward curve. Which one learns better, and why?"
+
+#### 【學生操作，走下講台巡視 18 min】
+
+【找不到 ε 滑桿 → 提示：進入 MAB 遊戲後，右側參數面板】
+【問要跑幾回合 → 說：At least 100 episodes — let the curve stabilize】
+【完成的學生 → 追問：Which curve rises faster? What does that tell you about exploration?】
+
+#### Wrap-up (3 min)
+
+"Here's the takeaway: **exploration has a cost, but without exploration there's no learning**. High ε finds better options eventually, but wastes time trying bad ones. Low ε converges fast but might miss something better. Neither is always right — it depends on the problem."
+
+"You'll see this trade-off in every task this week."
+
+---
+
+### 🎯 T2 · Maze 1D — Q-table & Bellman Update (25 min)
+
+#### Intro (2 min)
+
+"Next: a maze. The simplest possible one — a straight line. The agent moves left or right to find the goal."
+
+"This time the agent doesn't just choose actions — it learns to **evaluate positions**. It builds a table of values: for every position, how good is it to be here? That's the **Q-table**."
+
+"Every step produces three things: a **State**, an **Action**, and a **Reward** — S, A, R. You'll see them on the platform. Your job is to recognize them."
+
+#### 【播放影片】
+
+【播放 A2 影片：https://youtu.be/0t8htN7eXIo】
 
 【影片結束後】
 
-「好，看到了吧。在 Rein Room 上，你調整 **ε（epsilon）** 這個滑桿——ε 越高代表 AI 越常隨機探索，ε 越低代表 AI 越傾向選目前認為最好的選項。」
+"**Task T2**: Find the S, A, R on the platform — point them out. Then explain in your own words what the **Bellman update** is doing: how did this step change the Q-value for that position?"
 
-「T1 的任務：**跑 ε=0.9 和 ε=0.1 兩種設定**，觀察獎勵曲線，說明哪個學得比較好，以及為什麼。」
+"No math required. Just explain the logic."
 
-#### 學生操作（18 分鐘）
+#### 【學生操作，巡視 18 min】
 
-【走下講台，在教室走動巡視。不要站在台上等。】
+【看不懂 Q-value 數字 → 提示：Higher Q-value = the agent thinks that position is more worth being in. Cells closer to the goal have higher Q-values.】
+【問 Bellman 怎麼說 → 提示：The value of this state = immediate reward + discounted best future value. Say that in your own words.】
 
-【若有學生卡在「找不到 ε 滑桿」→ 提示：進 MAB 遊戲後，右側有參數面板】
-【若有學生問「要跑幾回合」→ 說：至少 100 回合以上，讓曲線穩定下來】
-【若有學生完成 → 引導：兩條曲線相比，哪個上升比較快？為什麼會這樣？】
+#### Wrap-up (3 min)
 
-#### 收尾（3 分鐘）
-
-「好，大部分人應該都跑完了。」
-
-「ε=0.9 前期很隨機，但最終可能找到更好的選項。ε=0.1 早早收斂但可能錯過更好的。**沒有絕對答案，看任務需要。**」
-
-「這個概念在接下來每個任務都會出現。記住：**探索要付出代價，但沒有探索就沒有學習。**」
+"**The Bellman equation** is the engine of Q-learning. Every step nudges the Q-value a little closer to the truth. Run enough steps, and the table converges. Everything else in RL — including deep neural networks — is built on this idea."
 
 ---
 
-### 🎯 T2：Maze 1D — Q-table 與 Bellman 更新（25 分鐘）
+### 🎯 T3 · Maze 2D — Policy Heatmap (30 min)
 
-#### 引入（2 分鐘）
+#### Intro (2 min)
 
-「第二個任務，迷宮。但先從最簡單的：**一維迷宮**，就是一條直線，左右走，找到終點。」
+"Now we go 2D. A grid maze — the agent can move up, down, left, right."
 
-「這次 AI 要學的不只是行動，還要學會**評估每個位置的價值**——這就是 **Q-table**。」
+"Why is this harder? **The state space is much larger.** A 1D maze had maybe 20 positions. A 2D maze has hundreds of cells, each needing to be learned separately."
 
-「每走一步，AI 會收到一組資訊：**狀態（S）、行動（A）、獎勵（R）**——你們在 Rein Room 上看到的數字，就是這三個東西。認出它們就對了。」
+"After training, you'll see a **Policy Heatmap**: brighter color means the agent thinks that cell is more valuable. Arrows show the preferred direction at each cell."
 
-#### 播放示範影片（約 2 分鐘）
+#### 【播放影片】
 
-【播放 A2 影片】
-【連結：https://youtu.be/0t8htN7eXIo】
+【播放 A3 影片：https://youtu.be/6TSTonFAClA】
 
 【影片結束後】
 
-「T2 的任務：**在 Rein Room 的 Maze 1D 中，找出 S、A、R 各是什麼**，然後解釋 Bellman 方程式在做什麼——簡單說就是：這次的經驗，怎麼更新我對這個位置的評估。」
+"**Task T3**: On the heatmap, trace the path from Start to Goal. Follow the bright cells and arrows. Then explain — why are certain cells brighter than others?"
 
-「不用寫數學式，用自己的話說清楚就好。」
+#### 【學生操作，巡視 23 min】
 
-#### 學生操作（18 分鐘）
+【熱圖顏色都一樣 → 回合數不夠，繼續跑】
+【進階 → 讓學生換 Walled In 難度，觀察路徑如何繞牆】
 
-【巡視時確認學生有開到 Q-Value 面板，能看到數字在更新】
+#### Wrap-up (2 min)
 
-【常見卡關：看不懂 Q-value 數字的意義 → 提示：Q-value 越高代表 AI 認為這個位置越值得去，從起點往終點方向的格子 Q-value 會逐漸升高】
-【若有學生問「Bellman 要怎麼說」→ 提示：「這個格子的價值 = 到這裡的獎勵 + 未來最好格子的折扣價值」，用這句話自己再說一遍就好】
-
-#### 收尾（3 分鐘）
-
-「**Bellman 的核心想法**：現在這個狀態的價值，等於立即獎勵加上未來最好結果的折扣版。每次更新都讓評估更準確一點點。」
-
-「這是強化學習最核心的數學，接下來都是這個基礎上蓋的。」
+"The heatmap *is* the Q-table — just visualized. It lets you see inside the agent's head: where it thinks is worth going, and where it doesn't. That kind of interpretability is rare in machine learning. Enjoy it while it lasts."
 
 ---
 
-### 🎯 T3：Maze 2D — Policy Heatmap（30 分鐘）
+### ☕ Break (10 min)
 
-#### 引入（2 分鐘）
+"Alright, that's the first half of Day 1. Take ten minutes — water, bathroom, stretch."
 
-「剛才一維，現在二維。格子迷宮，上下左右都能走。」
+【離開講台，讓學生真正放鬆】
 
-「難在哪裡？**狀態空間變大了**。一維迷宮只有幾十個位置，二維迷宮有幾百個格子，每個格子要分別學一次。」
+---
 
-「等等你們會看到一張 **Policy Heatmap**——**顏色越亮代表 AI 認為這個位置越有價值**，圖上的箭頭代表它認為在那裡最好往哪走。」
+## ══ Day 2 ══
 
-#### 播放示範影片（約 2 分鐘）
+---
 
-【播放 A3 影片】
-【連結：https://youtu.be/6TSTonFAClA】
+### 🟢 Opening (2 min)
+
+"Welcome back. Yesterday you did three tasks — MAB, Maze 1D, Maze 2D. Today we step up: **continuous state spaces**."
+
+"What does that mean? Yesterday's maze had discrete positions — a finite number of cells. Today's environments use **real-valued states**: position, velocity, angle — infinitely many possible values. How does the agent learn?"
+
+"The answer is **discretization**: slice the continuous space into bins, then apply the Q-table you already know. But the finer the bins, the more the agent has to learn. You'll feel that trade-off directly today."
+
+---
+
+### 🎯 T4 · Heli — Reading Training Curves (30 min)
+
+#### Intro (2 min)
+
+"Task 4 is a helicopter game — fly horizontally, dodge obstacles. **Continuous state**: position, velocity, and so on."
+
+"The main focus today isn't just running the agent — it's **reading the training curve**. That graph of reward over episodes: what is it telling you? Is the agent improving? Plateauing? Oscillating?"
+
+#### 【播放影片】
+
+【播放 A4 影片：https://youtu.be/BWvJVxiQ-hg】
 
 【影片結束後】
 
-「T3 的任務：**在 Rein Room 的 Heatmap 上，描出從起點到終點的最佳路徑**。找顏色亮的格子，跟著箭頭走。」
+"**Task T4**: Run at least 50 episodes. Then describe the reward curve trend — rising, flat, or noisy? Give your best explanation for why it looks that way."
 
-「然後說明：哪些格子的 Q-value 比較高？為什麼？」
+"Rising = the agent is learning. Flat or noisy = it might need more time, or the parameters might need tuning."
 
-#### 學生操作（23 分鐘）
+#### 【學生操作，巡視 23 min】
 
-【這關 AI 要訓練一段時間，Heatmap 才會有意義。提醒學生至少跑 50 回合以上再截圖。】
+【Rein Room 即時顯示飛行動畫和曲線，視覺直觀】
+【曲線很亂 → 正常。Look at the smoothed moving average, not individual points.】
+【鼓勵學生嘗試不同回合數，對比早期和晚期曲線差異】
 
-【常見問題：Heatmap 顏色都一樣 → 回合數不夠，繼續跑】
-【進階挑戰：可以讓學生換 Walled In 難度，觀察路徑怎麼繞牆】
+#### Wrap-up (3 min)
 
-#### 收尾（2 分鐘）
-
-「**Heatmap 就是 Q-table 的視覺化**。它讓你看到 AI 內部的評估——哪裡值得去，哪裡不值得。這是機器學習裡少數能直接觀察內部邏輯的方法，很珍貴。」
-
----
-
-### ☕ 休息（10 分鐘）
-
-「好，第一天前半段結束，休息十分鐘。喝水、上廁所。十分鐘後繼續。」
-
-【離開講台讓學生休息】
+"**The training curve is your diagnostic tool.** A flat curve doesn't mean failure — it might just need more episodes. A wild curve might mean the learning rate is too high. Reading these graphs is a skill, and you practiced it today."
 
 ---
 
-## ＝＝ 第二天 ＝＝
+### 🎯 T5 · Fighter — Optional Challenge (open-ended)
 
----
+#### Intro (2 min)
 
-### 🟢 開場（2 分鐘）
+"The last one: a fighter jet game. Shoot rocks, dodge them, survive. This is the hardest environment — **5-dimensional continuous state**, 4 actions, 5 difficulty modes."
 
-「好，第二天。昨天你們做了三個任務——MAB、一維迷宮、二維迷宮。今天進入**連續狀態空間**。」
+"This task is **optional**. If you haven't finished T4, keep working on that. If T4 is done, come try this."
 
-「什麼意思？昨天的迷宮，位置是整數，有限的幾十或幾百個格子。今天的遊戲，狀態是**連續的實數**——位置、速度、角度——無限可能，AI 要怎麼學？」
+#### 【播放影片】
 
-「答案是**離散化**：把連續空間切成格子，然後用昨天學過的 Q-table。但格子切得越細，要學的東西越多。這個 trade-off，等等你們會直接感受到。」
-
----
-
-### 🎯 T4：Heli — 閱讀訓練曲線（30 分鐘）
-
-#### 引入（2 分鐘）
-
-「T4 是一個直升機遊戲——上下飛，閃開障礙物。**連續狀態**：水平位置、垂直位置、速度等等。」
-
-「這次的任務重點不是跑完就好，而是**看懂訓練曲線**——那條獎勵隨時間變化的圖，它在說什麼？是在上升？持平？還是一直在震盪？」
-
-#### 播放示範影片（約 2 分鐘）
-
-【播放 A4 影片】
-【連結：https://youtu.be/BWvJVxiQ-hg】
+【播放 A5 影片：https://youtu.be/rhmJb94PZVU】
 
 【影片結束後】
 
-「T4 的任務：**在 Rein Room 的 Heli 模式跑 50 回合以上**，然後描述訓練曲線的趨勢——是在上升、持平、還是很雜亂？說明你的推測原因。」
+"No fixed requirement — **explore freely**. Try different difficulty modes on Rein Room. See how the agent's behavior changes as the challenge increases. If you notice something interesting, write it down."
 
-「曲線上升 = AI 在學習。持平或雜亂 = 可能還沒學到，或學到了但很難穩定。」
-
-#### 學生操作（23 分鐘）
-
-【Rein Room 的 Heli 可以即時看到 AI 飛行動作和曲線同步更新，視覺很直觀】
-【鼓勵學生嘗試不同回合數，對比早期和晚期的曲線差異】
-
-【常見問題：「曲線一直很亂，是壞掉了嗎？」→ 不是，強化學習訓練曲線本來就有雜訊，看移動平均的趨勢，不看單點】
-
-#### 收尾（3 分鐘）
-
-「**訓練曲線是 RL 最重要的診斷工具**。曲線不動不代表失敗，可能只是需要更多時間；曲線在震盪可能代表學習率太高。讀圖是一種技能，今天你們練習了。」
+#### 【學生自由探索 15 min，走動個別聊觀察】
 
 ---
 
-### 🎯 T5：Fighter — 自由探索（選做）
+### 🎤 Closing Discussion (10 min)
 
-#### 引入（2 分鐘）
+【不需要投影，站台前即可】
 
-「最後一個，Fighter——飛機射擊遊戲。這是最難的環境。**5 個維度的狀態**、4 個動作、5 種難度模式。」
+"Before we wrap up, a few questions. No right answers — just think out loud."
 
-「這個是**選做**。T4 還沒完成的人繼續做 T4。T4 完成的人可以來挑戰這個。」
+"**How was this different from what you imagined AI learning would look like?**"
 
-#### 播放示範影片（約 2 分鐘）
+【等 2-3 個學生回答，追問：Why did you expect that?】
 
-【播放 A5 影片】
-【連結：https://youtu.be/rhmJb94PZVU】
+"**Which task do you think was hardest for the agent — and why?**"
 
-【影片結束後】
+【引導：state space size / sparse rewards / exploration difficulty】
 
-「沒有固定任務要求——**自由探索**。試不同的難度模式，觀察 AI 在不同挑戰下學習的差異。有什麼發現，等等我們聊。」
+"Here's the bigger picture: everything you did this week — Q-table, Bellman updates, exploration vs exploitation — these are the same core ideas behind the systems you hear about in the news. Scale them up with deep neural networks, and you get the RLHF training that fine-tunes ChatGPT. You've touched the foundation."
 
-#### 學生操作（15 分鐘）
-
-【Rein Room 的 Fighter 有即時動畫，可以直接看到 AI 射擊行為演變，視覺上很有趣】
-【這段時間可以巡視、個別聊聊觀察結果，不需要統一節奏】
-
----
-
-### 🎤 收尾與問答（10 分鐘）
-
-「好，我們快到時間了。讓我問幾個問題，不需要標準答案，想到什麼說什麼。」
-
-「**今天做的這些任務，跟你想像中的 AI 學習有什麼不同？**」
-
-【等 2-3 個學生回答，不評判對錯，只追問「為什麼這樣覺得？」】
-
-「**如果你是這個 AI，你覺得哪個任務最難學？**」
-
-【引導學生想到：狀態空間大、探索困難、延遲獎勵等概念】
-
-「好，最後說一件事：你們剛才做的，是**真實強化學習研究的縮小版**。Q-table、Bellman 更新、探索-利用 trade-off——這些都是現在 DeepMind、OpenAI 在用的核心概念，只是更大、更複雜。今天你們摸過了起點。」
-
-「謝謝你們。助教會收表，有問題可以繼續問。」
+"Thank you. The TA will collect the forms. Feel free to ask questions before you leave."
 
 【下課】
 
 ---
 
-## 📎 附錄：影片連結快速索引
+## 📎 Video Links
 
-| 任務 | 主題 | YouTube 連結 |
-|------|------|-------------|
-| A1 | MAB — 探索 vs 利用 | https://youtu.be/YClKpairwDo |
-| A2 | Maze 1D — SAR + Q-table | https://youtu.be/0t8htN7eXIo |
+| Task | Topic | Link |
+|------|-------|------|
+| A1 | MAB — Exploration vs Exploitation | https://youtu.be/YClKpairwDo |
+| A2 | Maze 1D — SAR & Q-table | https://youtu.be/0t8htN7eXIo |
 | A3 | Maze 2D — Policy Heatmap | https://youtu.be/6TSTonFAClA |
-| A4 | Heli — 訓練曲線 | https://youtu.be/BWvJVxiQ-hg |
-| A5 | Fighter — 自由探索（選做） | https://youtu.be/rhmJb94PZVU |
+| A4 | Heli — Training Curves | https://youtu.be/BWvJVxiQ-hg |
+| A5 | Fighter — Optional | https://youtu.be/rhmJb94PZVU |
 
 ---
 
-## 📎 附錄：Rein Room 操作快速提示
+## 📎 Rein Room Quick Reference
 
-| 任務 | 進入方式 | 關鍵操作 |
-|------|----------|----------|
-| T1 MAB | 首頁 → MAB | 右側面板調 ε，按 Run 開始 |
-| T2 Maze 1D | 首頁 → Maze 1D | 觀察左側 Q-value 面板數字更新 |
-| T3 Maze 2D | 首頁 → Maze 2D | 選 Walled In；右下 Heatmap 按鈕開啟熱圖 |
-| T4 Heli | 首頁 → Heli | 至少跑 50 回合，看右側曲線趨勢 |
-| T5 Fighter | 首頁 → Fighter | 切換 Mode 1~5，自由觀察 |
+| Task | How to enter | Key action |
+|------|-------------|------------|
+| T1 MAB | Homepage → MAB | Adjust ε slider on right panel; press Run |
+| T2 Maze 1D | Homepage → Maze 1D | Watch Q-value panel update on the left |
+| T3 Maze 2D | Homepage → Maze 2D | Select Walled In; open Heatmap (bottom right) |
+| T4 Heli | Homepage → Heli | Run 50+ episodes; read the curve on the right |
+| T5 Fighter | Homepage → Fighter | Switch Mode 1–5; observe behavior changes |
 
 ---
 
-## 📎 附錄：緊急狀況處理
+## 📎 Troubleshooting
 
-| 狀況 | 處理方式 |
-|------|----------|
-| 平台無法載入 | 重新整理；確認網路連線；嘗試無痕視窗 |
-| 訓練跑很慢 | 正常，Rein Room 是即時模擬；讓它跑，不要一直重開 |
-| 曲線看不到 | 確認已點「Start Training」而不只是「Preview」 |
-| 學生問「這能做什麼？」 | 「現在你看的這個原理，用深度神經網路放大，就是 ChatGPT 的 RLHF 訓練在做的事。」 |
-| 有學生比其他人快很多 | 請他嘗試 T5 Fighter，或讓他解釋給旁邊同學聽（可加深自己的理解） |
+| Problem | Fix |
+|---------|-----|
+| Platform won't load | 重新整理；嘗試無痕視窗；確認網路連線 |
+| Training is slow | 正常，Rein Room 是即時模擬，讓它跑，不要一直重開 |
+| Can't see the curve | 確認已按 Start Training，不只是 Preview |
+| Heatmap looks blank | 回合數不夠，繼續跑到至少 50 回合 |
+| Student finishes way ahead | 請他試 T5 Fighter，或解釋給旁邊同學聽 |
+| "What's the real-world use?" | "This is the same algorithm, scaled up with neural nets, that trains ChatGPT's RLHF layer." |
