@@ -80,27 +80,16 @@
 
 【等學生掃碼或打 URL，助教協助確認】
 
-"Once you're on the page — click the Rein Room link and make sure the platform loads. You should see the game icons on the homepage."
-
-【等 90 秒，確認全員就緒。有問題的讓助教處理。】
-【關閉投影片，後續直接在 README 頁面上操作】
-
-"Good. Keep that page open — you'll use it all day."
-
----
-
-### 📝 前測 — Pre-test (10 min)
-
-【投影或寫白板：https://docs.google.com/forms/d/e/1FAIpQLSc6sPtZs-X6t9syMjg3ibwLbFryDOY1UUYtsI2hK41NBmaP9g/viewform】
-【助教協助確認每人都有填寫。】
-
-"Before we dive in — one quick thing. Please take out your phone or open a new tab and fill out this short questionnaire."
-
-"About 5 to 10 minutes. No right or wrong answers — we just want to know your background before the lab starts. It's anonymous and only used for research."
+"The very first thing you'll see on the page is a **Pre-test** link. Please open it and fill it out now — takes about 5 to 10 minutes. No right or wrong answers, just your background. It's anonymous and for research only."
 
 【等學生填寫，走動確認。助教計時，約 8 分鐘後提醒收尾。】
 
-"Take your time. Once you're done, we'll get started."
+"Once you're done with the form, scroll down to **Day 1** and click the Rein Room link. Make sure the platform loads and you can see the game icons on the homepage."
+
+【等確認全員就緒。有問題的讓助教處理。】
+【關閉投影片，後續直接在 README 頁面上操作】
+
+"Good. Keep that page open — you'll use it all day."
 
 ---
 
