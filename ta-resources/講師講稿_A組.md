@@ -103,6 +103,16 @@
 
 ---
 
+### 📺 A0 · Rein Room Platform Guide
+
+【播放 A0：https://www.youtube.com/watch?v=oMO8wwP2a6s】
+
+【影片結束後說】
+
+"That's the platform you'll be using. Five games — each one a different RL environment. You control the parameters on the right panel, press Start, and watch the agent learn in real time. We'll go through them one by one. Follow along on your screen."
+
+---
+
 ### 🎯 T1 · MAB — Multi-Armed Bandit (25 min)
 
 #### Intro (2 min)
