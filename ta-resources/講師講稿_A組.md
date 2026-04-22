@@ -177,7 +177,9 @@
 
 【影片結束後】
 
-"**Task T2**: Find the S, A, R on the platform — point them out. Then explain in your own words what the **Bellman update** is doing: how did this step change the Q-value for that position?"
+"**Task T2a**: Find the **State**, **Action**, and **Reward** on the platform — point them out to the TA. They're labeled somewhere on the screen. Tell the TA what each one is in this environment."
+
+"**Task T2b**: Look at the Q-table. Pick any cell. Explain in your own words what the **Bellman update** did: how did this step change the Q-value for that position?"
 
 "No math required. Just explain the logic."
 
@@ -226,13 +228,15 @@
 
 #### Intro (2 min)
 
+"Do you remember how we ended last session — that heatmap preview? That was **V3**: a trained Q-table visualized as a grid of colors and arrows. Today you'll build one yourself."
+
 "First task today: a 2D maze. The agent can move up, down, left, right."
 
 "Why is this harder than Maze 1D? **The state space is much larger.** A 1D maze had maybe 20 positions. A 2D maze has hundreds of cells, each needing to be learned separately."
 
 "After training, you'll see a **Policy Heatmap**: brighter color means the agent thinks that cell is more valuable. Arrows show the preferred direction at each cell."
 
-#### 【播放影片】
+#### 【播放 A3 影片】
 
 【播放 A3 影片：https://youtu.be/6TSTonFAClA】
 
@@ -363,13 +367,20 @@
 
 ## 📎 Video Links
 
-| Task | Topic | Link |
-|------|-------|------|
-| A1 | MAB — Exploration vs Exploitation | https://youtu.be/YClKpairwDo |
-| A2 | Maze 1D — SAR & Q-table | https://youtu.be/0t8htN7eXIo |
-| A3 | Maze 2D — Policy Heatmap | https://youtu.be/6TSTonFAClA |
-| A4 | Heli — Training Curves | https://youtu.be/BWvJVxiQ-hg |
-| A5 | Fighter — Optional | https://youtu.be/rhmJb94PZVU |
+| 影片 | 主題 | 連結 |
+|------|------|------|
+| V0 | What is RL — SAR Loop & Episode | https://www.youtube.com/watch?v=g5SFtsTAv4I |
+| A0 | Rein Room Platform Guide | https://www.youtube.com/watch?v=oMO8wwP2a6s |
+| V1 | MAB — Exploration vs Exploitation (概念) | https://www.youtube.com/watch?v=GrPdk2d9KVA |
+| A1 | MAB — Rein Room Demo | https://youtu.be/YClKpairwDo |
+| V2 | Q-table & Bellman Update (概念) | https://www.youtube.com/watch?v=lwEo9spItjs |
+| A2 | Maze 1D — Rein Room Demo | https://youtu.be/0t8htN7eXIo |
+| V3 | Reading the Q-table Heatmap (概念) | https://www.youtube.com/watch?v=Sesod0K4wjc |
+| A3 | Maze 2D — Rein Room Demo | https://youtu.be/6TSTonFAClA |
+| V4 | Training Curve Diagnostics (概念) | https://www.youtube.com/watch?v=6crIH-kT-bA |
+| A4 | Heli — Rein Room Demo | https://youtu.be/BWvJVxiQ-hg |
+| V5 | Discretizing Continuous States (概念) | https://www.youtube.com/watch?v=Z67UnKtgBH4 |
+| A5 | Fighter — Rein Room Demo | https://youtu.be/rhmJb94PZVU |
 
 ---
 
