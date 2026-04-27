@@ -321,7 +321,9 @@
 
 【影片結束後】
 
-"No fixed requirement — **explore freely**. Try different difficulty modes on Rein Room. See how the agent's behavior changes as the challenge increases. If you notice something interesting, write it down."
+"Notice that all the sliders on this game start at zero. **You need to set the values yourself** before pressing Start — that's intentional. Think about what each parameter should be before you run."
+
+"No fixed requirement — **explore freely**. Try different difficulty modes. See how the agent's behavior changes as the challenge increases. If you notice something interesting, write it down."
 
 #### 【學生自由探索 15 min，走動個別聊觀察】
 
